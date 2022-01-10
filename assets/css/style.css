@@ -54,3 +54,34 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #d9d9d9;
 }
+
+/* Hero Image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+
+
+/* Animates zoom effect on loading page */
+
+animation-name: hero-zoom;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+
+/* Create zoom animation for logo image */ 
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }    
+}
