@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: Overpass, sans-serif;
     font-weight: 400;
     color: #d9d9d9;
     background-color: #413f45;
@@ -16,13 +16,41 @@ body {
 /* Headings and Logo */
 
 h1, h2 {
-    font-family: Overpass, sans-serif;
+    font-family: Poppins, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     color: #d9d9d9;
 }
 
 #logo {
     float: left;
     font-size: 300%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu :hover {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.active {
+    border-bottom: 1px solid #d9d9d9;
 }
