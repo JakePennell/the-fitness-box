@@ -9,4 +9,20 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 400;
+    color: #d9d9d9;
+    background-color: #413f45;
+}
+
+/* Headings and Logo */
+
+h1, h2 {
+    font-family: Overpass, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #d9d9d9;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
