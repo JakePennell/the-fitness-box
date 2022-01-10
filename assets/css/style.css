@@ -111,3 +111,11 @@ animation-fill-mode: forwards;
 
     position: absolute;
 }
+
+/* About Me section */
+
+#about-me {
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
