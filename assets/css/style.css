@@ -131,6 +131,7 @@ footer {
 }
 
 .social-networks > li {
+    list-style-type: none;
     display: inline;
 }
 
