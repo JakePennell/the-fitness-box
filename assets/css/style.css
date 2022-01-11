@@ -119,3 +119,17 @@ animation-fill-mode: forwards;
     padding-left: 500px;
     padding-right: 500px;
 }
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
