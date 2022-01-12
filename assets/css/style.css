@@ -10,7 +10,7 @@ body {
     font-family: Overpass, sans-serif;
     font-weight: 400;
     color: #d9d9d9;
-    background-color: #413f45;
+    background-color: #42424a;
 }
 
 /* Headings and Logo */
@@ -104,24 +104,24 @@ animation-fill-mode: forwards;
     width: 400px;
     height: 300px;
 
-    padding: 10px, 10px, 10px, 10px;
+    padding: 10px;
 
-
-    bottom: -100px;
-    right: 750px;
-
-    position: center;
 }
 
 /* About Me */
 
 #about-me {
-    height: 600px;
+    height: 300px;
+    margin-top: 75px;
+    margin-left: 150px;
+    margin-bottom: 75px;
+    margin-right: 150px;
+    text-align: center;
 }
 
 #about-top {
     padding: 30px;
-    width: 33%;
+    width: 25%;
     margin: 0 auto;
     background-color: blue;
 }
