@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 25px;
 }
 
 #menu {
@@ -109,21 +110,40 @@ animation-fill-mode: forwards;
     bottom: -100px;
     right: 750px;
 
-    position: absolute;
+    position: center;
 }
 
-/* About Me section */
+/* About Me */
 
 #about-me {
-    text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
+    height: 600px;
+}
+
+#about-top {
+    padding: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+#about-center {
+    padding: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#about-bottom {
+    padding: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
 
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 50px;
 }
 
 .social-networks {
@@ -136,8 +156,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #d9d9d9;
 }
+
