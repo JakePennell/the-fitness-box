@@ -101,49 +101,54 @@ animation-fill-mode: forwards;
 
     text-align: center;
 
-    width: 400px;
-    height: 300px;
-
-    padding: 10px;
-
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* About Me */
+/* Bio */
 
-#about-me {
-    height: 300px;
-    margin-top: 75px;
-    margin-left: 150px;
-    margin-bottom: 75px;
-    margin-right: 150px;
-    text-align: center;
+#bio {
+    height: 600px;
 }
 
-#about-top {
-    padding: 30px;
-    width: 25%;
-    margin: 0 auto;
-    background-color: blue;
-}
-
-#about-center {
-    padding: 30px;
+#left-about {
+    padding-top: 30px;
     width: 33%;
-    margin: 0 auto;
-    background-color: red;
+    float: left;
+    margin-left: 150px;
 }
 
-#about-bottom {
-    padding: 30px;
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+
+}
+
+.left-about-paragraph {
+    width: 60%;
+    line-height: 25px;
+    text-align: center;
+}
+
+.right-about-paragraph {
+    width: 60%;
+    line-height: 25px;
+    text-align: center;
 }
 
 /* Footer */
 
 footer {
-    height: 50px;
+    height: 150px;
 }
 
 .social-networks {
