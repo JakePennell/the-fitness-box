@@ -116,34 +116,60 @@ animation-fill-mode: forwards;
 #left-about {
     padding-top: 30px;
     width: 33%;
-    float: left;
-    margin-left: 150px;
+    margin-left: 25px;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
-    float: right;
+    margin-left: 25px;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 
+}
+
+hr {
+    border-top: 1px solid #d9d9d9;
+    width: 100%;
 }
 
 .left-about-paragraph {
     width: 60%;
-    line-height: 25px;
-    text-align: center;
+    float: left;
+    line-height: 20px;
+    clear: both;
 }
 
 .right-about-paragraph {
     width: 60%;
-    line-height: 25px;
-    text-align: center;
+    float: right;
+    line-height: 20px;
+    clear: both;
 }
+
+.welcome {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#circle-container {
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border: solid 1px #000000;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url(../images/lily-1.jpeg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 /* Footer */
 
