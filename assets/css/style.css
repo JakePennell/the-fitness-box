@@ -40,10 +40,10 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
@@ -110,7 +110,7 @@ animation-fill-mode: forwards;
 /* Bio */
 
 #bio {
-    height: 300px;
+    height: 600px;
 }
 
 #left-about {
@@ -260,3 +260,5 @@ footer {
     column-count: 1;
 }
 }
+
+/* Form */
