@@ -40,7 +40,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #menu a{
@@ -224,4 +224,16 @@ footer {
     padding: 0;
 }
 
+}
+
+/* For medium creen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
